@@ -259,6 +259,22 @@ input[type="submit"] {
 	object-fit: cover;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	background-color: #6f6800;
+	color: #ffffff;
+}
+
+input[type="submit"] {
+	background-color: #6f6800;
+	color: #ffffff;
+	border: none;
+}
+
+.service__price span {
+	color: #333333;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
