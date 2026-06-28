@@ -257,12 +257,14 @@ input[type="submit"] {
 	object-fit: cover;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-indicators [data-bs-target] {
 	background-color: #000;
-	border-radius: 50%;
-	padding: 20px;
-	background-size: 50% 50%;
+	opacity: 0.6;
+}
+
+.carousel-indicators .active {
+	background-color: #000;
+	opacity: 1;
 }
 
 .nav-pills .nav-link.active,
